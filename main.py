@@ -1,2 +1,4 @@
-print("Hi World")
-print("Пошёл")
+a = "Привет, как ваши дела? Не желаете попить чаю?"
+for i in a.split():
+    print(i, end=" ")
+
